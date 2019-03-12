@@ -3,8 +3,8 @@
 // 둘 중 작은 값을 반환하는 함수 min()을 작성하라.
 
 // A.
-const max = (x : number, y : number) : number => x > y ? x : y;
-const min = (x: number, y : number) : number => x < y ? x : y;
+const max = (x: number, y: number): number => x > y ? x : y;
+const min = (x: number, y: number): number => x < y ? x : y;
 
 // App
 

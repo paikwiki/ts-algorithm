@@ -3,7 +3,7 @@
 // 배열과 배열의 크기를 인자로 받는다.
 
 // A1.
-const maxArr = (arr : Array<number>, arrLen : number) : number => {
+const maxArr = (arr: Array<number>, arrLen: number): number => {
   let maxa: number;
   let i: number;
 
@@ -16,7 +16,7 @@ const maxArr = (arr : Array<number>, arrLen : number) : number => {
 }
 
 // A2.
-const maxArr2 = (arr : Array<number>) : number => {
+const maxArr2 = (arr: Array<number>): number => {
   return arr.reduce((prev, curr) => prev > curr ? prev : curr)
 };
 
