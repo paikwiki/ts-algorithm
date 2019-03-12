@@ -1,0 +1,14 @@
+{
+  "name": "ts-algorithm",
+  "version": "1.0.0",
+  "description": "이 저장소는 황인욱.김용혁 저, 『문제로 풀어보는 알고리즘』을 학습하기 위해 생성했습니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  }
+}
