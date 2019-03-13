@@ -5,7 +5,7 @@
 // 변수에 할당한 값은 함수를 이용해서 swap할 수 없었는데(q0.2.1-swap.ts 참고)
 // 변수에 할당한 배열은 함수 내에서 순서를 바꾸니까 순서가 바뀐다.
 const swapArr = (arr: Array<any>, pos1: number, pos2: number): void => {
-  let temp;
+  let temp: any;
   temp = arr[pos1];
   arr[pos1] = arr[pos2];
   arr[pos2] = temp;
