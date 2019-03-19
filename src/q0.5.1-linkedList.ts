@@ -51,7 +51,7 @@ import * as readline from 'readline';
       const pAnswer: number = parseInt(answer);
       if(pAnswer === 0) {
         deleteNode();
-      } else {
+      } else if(pAnswer > 0) {
         insertNode(pAnswer);
       }
       if(pAnswer < 0) return;
