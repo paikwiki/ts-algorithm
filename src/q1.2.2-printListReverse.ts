@@ -1,5 +1,4 @@
 import * as readline from 'readline';
-import { stringify } from 'querystring';
 
 {
   // Q.
