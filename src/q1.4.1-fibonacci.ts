@@ -9,6 +9,6 @@
   }
 
   // App
-  console.log(fibo(20));
-  console.log(fibo(50));
+  console.log(fibo(20)); // 6765
+  console.log(fibo(50)); // 12586269025
 }
